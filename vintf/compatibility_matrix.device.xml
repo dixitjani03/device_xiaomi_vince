@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<compatibility-matrix version="1.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.light</name>
+        <version>2.0</version>
+        <interface>
+            <name>ILight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>com.fingerprints.extension</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintAuthenticator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>com.fingerprints.extension</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintSensor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlGnss</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlWiFiDBReceiver</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlIzatProvider</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlGeofenceService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlFlpService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILocHidlBatchingService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

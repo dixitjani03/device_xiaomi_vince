@@ -47,9 +47,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Remove unneeded AOSP modules
-PRODUCT_PACKAGES_REMOVE += \
-    uprobestats_bpf_syscall_wrappers
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
